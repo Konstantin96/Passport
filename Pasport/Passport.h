@@ -99,14 +99,14 @@ public:
 
 	Passport(string _Surname, string _Name, string _Patronymic, Date _Birthday) :
 		surname(_Surname), name(_Name), patronymic(_Patronymic), birthday(_Birthday),
-		adress("г.Одесса Одесская обл. ул.Посмитного 33"), registration("г.Костополь Ровенская обл. ул.Ровенская 76/186")
+		adress("г.Темиртау Карагандинская обл. ул.Металлургов 21/2б"), registration("г.Алматы Алматинская обл.ул.Навои 310 ")
 	{
 
 	}
 
 	Passport(string _Surname, string _Name, string _Patronymic, Date _Birthday, string _Adress) :
 		surname(_Surname), name(_Name), patronymic(_Patronymic), birthday(_Birthday),
-		adress(_Adress), registration("г.Костополь Ровенская обл. ул.Ровенская 76/186")
+		adress(_Adress), registration("г.Астана Акмолинская обл.ул.Назарбаева 12")
 	{
 
 	}
