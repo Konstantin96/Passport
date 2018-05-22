@@ -4,6 +4,7 @@
 
 class Passport
 {
+protected:
 	string surname;
 	string name;
 	string patronymic;
@@ -97,8 +98,8 @@ public:
 
 	}
 
-	Passport(string _Surname, string _Name, string _Patronymic, Date _Birthday) :
-		surname(_Surname), name(_Name), patronymic(_Patronymic), birthday(_Birthday),
+	Passport(string _Surname, string _Name, string _Patronymic, Date Birthday) :
+		surname(_Surname), name(_Name), patronymic(_Patronymic), birthday(Birthday),
 		adress("г.Темиртау Карагандинская обл. ул.Металлургов 21/2б"), registration("г.Алматы Алматинская обл.ул.Навои 310 ")
 	{
 
